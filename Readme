@@ -1,0 +1,12 @@
+Afin de pouvoir utiliser les modèles, il convient de mettre dans le dossier archive les fichier son disponible à cette URL:
+https://www.kaggle.com/daisukelab/dc2020task2
+
+Le dossier npy contient les fichier .npy de nos audio a charger dans nos differents notebook
+
+Nous avons les differents notebooks suivants:
+    AE => Les differents essais de model d'AutoEncodeur
+    Classificateur_ID_hybride => modèle de classification sur les ID pour detection normal anormal 
+    Classificateur_ID_RNN => modèle de classification sur les ID pour detection normal anormal a l'aide d'un model RNN
+    Dataviz => notebook contenant toute les datavizualisation
+    Template => notebook appeler dans les différents modèles, il contient tout les import et un appele au fonctions utilise
+    functions_utils => notebook contenant toute les fonctions utilisé et chargé dans le Template
